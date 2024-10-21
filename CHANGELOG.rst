@@ -2,9 +2,15 @@
 Changelog
 =========
 
-ouster_ros v0.13.1
+[unreleased]
+============
+* [BUGFIX]: correctly align timestamps to the generated point cloud.
+
+ouster_ros v0.13.2
 ==================
 * [BUGFIX]: Make sure to initialize the sensor with launch file parameters.
+* [BUGFIX]: ``os_driver`` failed when RAW option is used.
+
 
 ouster_ros v0.13.0
 ==================
