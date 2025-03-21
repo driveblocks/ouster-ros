@@ -97,7 +97,7 @@ def generate_launch_description():
         ouster_ns_arg,
         rviz_enable_arg,
         os_driver_name_arg,
-        rviz_launch,
+        # rviz_launch,
         os_driver,
         sensor_configure_event,
         sensor_activate_event,
